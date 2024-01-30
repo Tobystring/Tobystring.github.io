@@ -1,0 +1,28 @@
+body{
+    background-color: lightskyblue;
+}
+.boss{
+    background-color: aliceblue;
+}
+.ope{
+    width: 250px;
+    background-color: darkslateblue;
+    height: 40px;
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
+.idan{
+    background-color: rgb(150, 124, 230)
+}
+.joe{
+    text-align: left;
+}
+.man{
+    text-align: right;
+    text-align: left;
+}
+.not img{
+    width: 30px;
+    height: 30px;
+}
