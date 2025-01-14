@@ -1,0 +1,106 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #5f5a5a; /* Ash-colored background */
+}
+
+/* Header styles */
+.header {
+    background: #97642b; /* Slightly darker blue to match the profile picture */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.profile-picture {
+    width: 120px; /* Adjusted size */
+    height: 120px;
+    border-radius: 50%; /* Circular shape */
+    margin: 20px auto;
+    display: block;
+    object-fit: cover; /* Ensures proper cropping */
+    border: 4px solid #ffffff; /* White border for contrast */
+}
+
+/* Navbar styles */
+.navbar ul {
+    background: #333;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    padding: 10px 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #5f5a5a; /* Matches the header color */
+}
+
+/* Section styles */
+.section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white; /* White background for readability */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    border-bottom: 2px solid #5f5a5a; /* Matches the header color */
+    padding-bottom: 5px;
+}
+
+/* Image styles for section images */
+.section-image {
+    width: 100%; /* Default full width */
+    max-width: 400px; /* Limit the size */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Media query for responsiveness on small screens */
+@media (max-width: 600px) {
+    .profile-picture {
+        width: 80px; /* Smaller profile picture */
+        height: 80px;
+    }
+
+    .section-image {
+        max-width: 300px; /* Smaller section images */
+    }
+
+    .navbar ul {
+        flex-direction: column; /* Stack navbar items */
+    }
+
+    .navbar ul li {
+        padding: 10px 0; /* Adjust spacing */
+    }
+}
